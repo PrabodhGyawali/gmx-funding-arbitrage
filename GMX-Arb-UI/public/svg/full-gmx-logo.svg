@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xodm="http://www.corel.com/coreldraw/odm/2003" xml:space="preserve" width="2500px" height="648px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 2500 648">
+ <defs>
+  <style type="text/css">
+   
+    .fil1 {fill:black;fill-rule:nonzero}
+    .fil0 {fill:url(#id0);fill-rule:nonzero}
+   
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="382" y1="-37" x2="104" y2="668">
+   <stop offset="0" style="stop-opacity:0.988235; stop-color:#03D1CF"></stop>
+   <stop offset="1" style="stop-opacity:1; stop-color:#4E09F8"></stop>
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+  <g id="_1704380658960">
+   <polygon class="fil0" points="889,648 446,0 0,648 620,648 446,401 358,530 265,530 446,271 705,648 "></polygon>
+   <path class="fil1" d="M1262 319c-6,0 -6,3 -6,6l0 42c0,6 3,6 6,6l145 0 0 78c-33,48 -87,75 -145,72 -108,0 -175,-69 -175,-202 -3,-133 75,-202 163,-202 69,0 127,27 145,93 0,3 3,6 9,6l45 0c6,0 9,-3 9,-6 -18,-102 -105,-151 -208,-151 -111,0 -232,87 -232,259 0,172 111,259 241,259 78,3 154,-36 196,-105 6,-9 6,-15 6,-27l0 -127c0,-6 -3,-6 -6,-6l-193 3zm750 -241c0,-6 -3,-6 -6,-6l-69 0c-6,0 -9,3 -12,6l-142 322 -139 -322c-3,-6 -6,-9 -12,-6l-69 0c-6,0 -6,3 -6,6l0 491c0,6 3,6 6,6l45 0c6,0 6,-3 6,-6l0 -404 142 319c0,3 6,6 9,6l33 0c3,0 9,-3 9,-6l142 -319 0 404c0,6 3,6 6,6l45 0c6,0 6,-3 6,-6l6 -491zm157 0c-6,-6 -6,-6 -9,-6l-54 0c-6,0 -6,3 -6,6l154 232 -175 259c-3,3 0,6 6,6l54 0c6,0 6,0 12,-6l139 -208 139 208c6,6 6,6 12,6l54 0c6,0 6,-3 6,-6l-172 -259 154 -232c3,-3 0,-6 -6,-6l-57 0c-6,0 -6,0 -9,6l-117 178 -124 -178z"></path>
+  </g>
+ </g>
+</svg>
