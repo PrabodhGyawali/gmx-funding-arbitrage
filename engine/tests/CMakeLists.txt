@@ -1,0 +1,14 @@
+include(FetchGoogleTest)
+
+add_executable(fra_tests
+  math/money_test.cpp
+)
+target_link_libraries(fra_tests PRIVATE
+  fra_types
+  GTest::gtest_main
+)
+fra_apply_warnings(fra_tests)
+fra_apply_sanitizers(fra_tests)
+
+include(GoogleTest)
+gtest_discover_tests(fra_tests)
