@@ -28,6 +28,7 @@ add_library(fra_math
   src/math/fees.cpp
   src/math/skew.cpp
   src/math/delta.cpp
+  src/math/sizing.cpp
 )
 target_include_directories(fra_math PUBLIC
   "${CMAKE_CURRENT_SOURCE_DIR}/include"

@@ -9,6 +9,7 @@ add_executable(fra_tests
   math/fees_test.cpp
   math/skew_test.cpp
   math/delta_test.cpp
+  math/sizing_test.cpp
 )
 target_link_libraries(fra_tests PRIVATE
   fra_types
