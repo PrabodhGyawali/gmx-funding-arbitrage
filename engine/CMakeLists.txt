@@ -21,6 +21,15 @@ target_include_directories(fra_types PUBLIC
 )
 fra_apply_warnings(fra_types)
 
+add_library(fra_math
+  src/math/normalize.cpp
+)
+target_include_directories(fra_math PUBLIC
+  "${CMAKE_CURRENT_SOURCE_DIR}/include"
+)
+target_link_libraries(fra_math PUBLIC fra_types)
+fra_apply_warnings(fra_math)
+
 if(FRA_BUILD_TESTS)
   enable_testing()
   add_subdirectory(tests)

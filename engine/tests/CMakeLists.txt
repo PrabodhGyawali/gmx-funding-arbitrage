@@ -2,9 +2,11 @@ include(FetchGoogleTest)
 
 add_executable(fra_tests
   math/money_test.cpp
+  math/normalize_test.cpp
 )
 target_link_libraries(fra_tests PRIVATE
   fra_types
+  fra_math
   GTest::gtest_main
 )
 fra_apply_warnings(fra_tests)
