@@ -23,6 +23,7 @@ fra_apply_warnings(fra_types)
 
 add_library(fra_math
   src/math/normalize.cpp
+  src/math/matching.cpp
 )
 target_include_directories(fra_math PUBLIC
   "${CMAKE_CURRENT_SOURCE_DIR}/include"

@@ -3,6 +3,7 @@ include(FetchGoogleTest)
 add_executable(fra_tests
   math/money_test.cpp
   math/normalize_test.cpp
+  math/matching_test.cpp
 )
 target_link_libraries(fra_tests PRIVATE
   fra_types
