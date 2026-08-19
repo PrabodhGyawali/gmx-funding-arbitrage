@@ -26,6 +26,7 @@ add_library(fra_math
   src/math/matching.cpp
   src/math/pnl.cpp
   src/math/fees.cpp
+  src/math/skew.cpp
 )
 target_include_directories(fra_math PUBLIC
   "${CMAKE_CURRENT_SOURCE_DIR}/include"
