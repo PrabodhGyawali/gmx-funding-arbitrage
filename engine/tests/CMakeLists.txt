@@ -6,6 +6,7 @@ add_executable(fra_tests
   math/matching_test.cpp
   math/pnl_test.cpp
   math/neutralize_test.cpp
+  math/fees_test.cpp
 )
 target_link_libraries(fra_tests PRIVATE
   fra_types
