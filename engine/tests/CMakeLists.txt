@@ -8,6 +8,7 @@ add_executable(fra_tests
   math/neutralize_test.cpp
   math/fees_test.cpp
   math/skew_test.cpp
+  math/delta_test.cpp
 )
 target_link_libraries(fra_tests PRIVATE
   fra_types
